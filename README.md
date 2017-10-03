@@ -56,3 +56,25 @@ We just built a sweet page in this repo. It's called [newbie](newbie.md).
 
 Compare that nice formatting to this awful HTML: <A HREF="newbie.md">newbie</A>
 
+### images
+
+![AEM cover](2015-AEM-SMALL.gif)
+
+Oops I made a link:
+
+[AEM cover](2015-AEM-SMALL.gif)
+
+How I change the size of an image?
+
+Size by % of the page:
+
+<IMG SRC="2015-AEM-SMALL.gif" WIDTH=50%>
+
+Size by pixels: In this case, original was 132, so to shrink by half would be 66:
+
+<IMG SRC="2015-AEM-SMALL.gif" WIDTH=66>
+
+
+Image on the web:
+
+![Different AEM cover](http://labs.feinberg.northwestern.edu/mandel/images/AEMcover.jpg)
